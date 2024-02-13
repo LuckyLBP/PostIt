@@ -30,7 +30,7 @@ export const SaveNote = ({ saveCallback }: Props) => {
 
     // Save the note to Firestore
     try {
-      const docRef = await addDoc(collection(db, "Notedb"), {
+      await addDoc(collection(db, "Notedb"), {
         message: message.trim(),
         id: `note-${Date.now()}`,
       });
