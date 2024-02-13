@@ -1,0 +1,55 @@
+.deleteBtn {
+    background-color: $delete-color;
+    color: $secondary-color;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 0.8rem;
+
+    &:hover {
+      background-color: darken($delete-color, 10%);
+    }
+  }
+
+  .cancelBtn {
+    background-color: $cancel-color;
+    color: $note-title;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $cancel-color-hover;
+    }
+}
+
+.deleteBtnFront {
+    padding: 0.3rem 0.5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: $cancel-color;
+    
+
+    &:hover {
+      background-color: darken($cancel-color, 10%);
+    }
+}
+
+.saveBtn {
+    background-color: $saved-color;
+    color: $secondary-color;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 0.8rem;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+}

@@ -1,0 +1,12 @@
+// Import variables and mixins
+@import './_variables/variables';
+
+// Import base styles
+@import './_base/base';
+
+// Import components
+@import './components/homepage.scss';
+@import './components/noteDelete.scss';
+@import './components/buttons.scss';
+@import './components/note.scss';
+@import './components/noteEdit.scss'
