@@ -7,4 +7,7 @@ Ett projekt gjort som uppgift. Det är ett program som man kan skriva notiser so
 
 - npm install
 - npm install Sass
-- npm install firebase@10.8.0 --save 
+- npm install firebase@10.8.0 --save
+
+  Starta genom:
+  - npm run dev
