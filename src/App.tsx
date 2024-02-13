@@ -59,10 +59,6 @@ function App() {
     setNoteToEdit(null);
   };
 
-  // Firebase Firestore - Create Note
-
-  
-
   // Firebase Firestore - Read Notes
   useEffect(() => {
     const q = query(collection(db, "Notedb"));
